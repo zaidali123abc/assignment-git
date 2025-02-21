@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <a href="https://www.google.com">visit google</a>
+    <button id="btn">Visit</button>
+    <!-- <h1>Select Gender</h1>
+    <input type="radio" name="gender" id="" value="Male">
+     <label for="">Male</label>
+     <br><br>
+     <input type="radio" name="gender" id="" value="Female">
+     <label for="">Female</label>
+     <br><br>
+     <input type="radio" name="gender" id="" value="other">
+     <label for="">Prefer Not To Say</label>
+     <button id="result">submit</button> -->
+<!--     
+<input type="text" id="num1" placeholder="Enter Your First Name">
+<br><br>
+<input type="text" id="num2" placeholder="Enter Your Last Name">
+<br><br>
+<button id="btn">ADD</button> -->
+    <script src="jq.js"></script>
+    <script>
+        $(document).ready(function(){
+        $('#btn').click(function(){
+            var a = $('a').attr('href')
+            alert(a);
+        })
+        })
+    </script>
+</body>
+</html>
